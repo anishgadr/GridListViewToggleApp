@@ -40,8 +40,8 @@ class ImageAdapter(
                                 .into(detailsBind.image)
 
                             // for getting the count of the image
-                            detailsBind.title.text = "Image Count : " +imageList.images.filter { image -> image.type == "image/jpeg" }.size.toString()
-                            detailsBind.number.text = image.size.toString()
+                            detailsBind.title.text = imageList.title
+                            detailsBind.number.text = "Image Count : " +imageList.images.filter { image -> image.type == "image/jpeg" }.size.toString()
                             val simpleDateFormat = SimpleDateFormat("dd/MM/yyyy")
                             val dateString = simpleDateFormat.format(image.datetime)
                             detailsBind.date.text = dateString
