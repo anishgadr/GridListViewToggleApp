@@ -1,8 +1,8 @@
 # GridListViewToggleApp
 
 Used Third Party Library  :
-   Glide for Display Images
-   Retrofit  for Api calls
+   Glide for Display Images;
+   Retrofit  for Api calls;
      
 
 -> Open the folder on androif Studio;
